@@ -1,0 +1,21 @@
+.padding {
+    float: left;
+}
+.top {
+    background: blue;
+    color: white;
+}
+.list-group-item {
+    color: white;
+}
+.list-group-item-warning {
+    background: black;
+    text-align: left;
+}
+
+.line {
+    text-decoration: line-through;
+  }
+ input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
