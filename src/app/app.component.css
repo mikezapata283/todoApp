@@ -1,6 +1,3 @@
-.padding {
-    float: left;
-}
 .top {
     background: blue;
     color: white;
@@ -11,6 +8,7 @@
 .list-group-item-warning {
     background: black;
     text-align: left;
+    float: left;
 }
 
 .line {
@@ -19,3 +17,7 @@
  input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
   }
+
+.box {
+    float: right;
+}
